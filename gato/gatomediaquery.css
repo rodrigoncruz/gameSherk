@@ -1,0 +1,172 @@
+/*Imagem Backgroud da tela inicial para escolher os personagens*/
+.background {
+  background-image: url(../img/background-ovo.jpeg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+  background-position-x: right;
+  width: 100%;
+  height: 800px;
+  display:flex;
+  justify-content: center;
+}
+
+/*Variáveis criadas para o tema do jogo*/
+:root {
+  --corVerde:#7a9244;
+  --corClara:#e1dfb6;
+  --corClaraTransparente:rgba(225,223,182, 0.8);
+  --corMarron:#5c452d;
+  --corVerdeClaro: #c5ee7d;
+}
+
+/*Titulo do jogo*/
+.titulo {
+  background-color: var(--corMarron);
+  border-bottom: 10px solid var(--corVerdeClaro);
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo p {
+  display: flex;
+  align-items: center;
+  color:var(--corClara);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+/*Bloco onde contém a história e o personagem*/
+.historia {
+margin-top: 150px;
+position: absolute;
+background-color: var(--corClaraTransparente);
+border-radius: 20px;
+width: 500px;
+height: 400px;
+padding: 15px;
+display: flex;
+justify-content: center;
+}
+
+.historia p {
+font-family: Arial, Helvetica, sans-serif;
+padding-top:10px;
+font-size: 20px;
+text-align: left;
+position: absolute;
+justify-content: center;
+padding-left: 15px;
+}
+
+.historia p b {
+  font-weight: bold;
+}
+
+/*Imagem dos personagens*/
+.personagens img {
+margin: 10px;
+height: 100%;
+margin-top: 100px;
+display: flex;
+}
+
+/*Botão para decisão o jogo*/
+.bnt{
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #8b0000;
+  color: var(--corClara);
+  text-transform: uppercase;
+  font-size: 18px;
+  padding:10px;
+  font-weight: 500;
+  display:flex;
+  justify-content: center;
+  border-radius: 10px;
+  transition: 0.4s;
+  filter: drop-shadow(3px 3px 3px #000);
+}
+
+.bnt:hover{
+  background-color: var(--corVerde);
+}
+
+/*Responsividade*/
+@media screen and (min-width: 350px) and (max-width: 600px)  {
+
+  .titulo {
+    width: 100%;
+    height: 70px;
+  }
+
+  .titulo p {
+    font-size: 22px;
+  }
+
+  .historia {
+    width: 80%;
+    height: 300px;
+  }
+
+  .historia p {
+    font-size: 16px;
+    width:300px;
+  }
+
+  .personagens img  {
+    height: 80%;
+  }
+
+  .background {
+    background-size:cover;
+  }
+
+  .bnt{
+    font-size: 15px;
+    margin-left: 30px;
+  }
+ 
+}
+
+@media screen and (max-width: 349px){
+  .titulo {
+    width: 100%;
+    height: 70px;
+  }
+
+  .titulo p {
+    font-size: 18px;
+  }
+
+  .historia {
+    width: 80%;
+    height: 200px;
+  }
+
+  .historia p {
+    font-size: 15px;
+  }
+
+  .personagens img  {
+    height: 100%;
+  }
+
+  .background {
+    background-size:cover;
+  }
+
+  .bnt{
+    font-size: 15px;
+  }
+}
+
+
+
+
+
+
