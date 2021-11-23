@@ -1,6 +1,6 @@
 function respostaBurro() {
-  alert("Sherk deve responder se está com medo da situação: se sim digite '1' se não digite '2' ");
-  var decisao = prompt("Sherk está com medo?");
+  alert("Shrek deve responder se está com medo da situação: se sim digite '1' se não digite '2' ");
+  var decisao = prompt("Shrek está com medo?");
   if (decisao == 1) {
     location = "./burro2.html";
   }else if (decisao == 2) {
@@ -11,7 +11,7 @@ function respostaBurro() {
 }
 
 function respostaBurro2() {
-  alert("Burro deve decidir se quer continuar o desfio com Sherk: se sim digite '1' se não digite '2' ");
+  alert("Burro deve decidir se quer continuar o desfio com Shrek: se sim digite '1' se não digite '2' ");
   var decisao = prompt("Burro quer continuar?");
   if (decisao == 1) {
     location = "./burro6.html";
@@ -71,7 +71,7 @@ function respostaBurro6() {
 }
 
 function msg() {
-  alert("Parabéns, você terminou o jogo, Sherk salvou a princesa Fiona e o Burro arrumou uma namorada dragão rs - Jogo Desenvolvido por Rodrigo Cruz ");
+  alert("Parabéns, você terminou o jogo, Shrek salvou a princesa Fiona e o Burro arrumou uma namorada dragão rs - Jogo Desenvolvido por Rodrigo Cruz ");
     location = "../index.html";
 }
 

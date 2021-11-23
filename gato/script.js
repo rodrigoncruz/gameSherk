@@ -35,8 +35,8 @@ function respostaGato3() {
 }
 
 function respostaGato4() {
-  alert("Gato de Botas deve decidir se vai atacar o Sherk: se sim digite '1' se não digite '2' ");
-  var decisao = prompt("Gato de Botas deve atacar o Sherk?");
+  alert("Gato de Botas deve decidir se vai atacar o Shrek: se sim digite '1' se não digite '2' ");
+  var decisao = prompt("Gato de Botas deve atacar o Shrek?");
   if (decisao == 1) {
     location = "./gato8.html";
   }else if (decisao == 2) {
@@ -59,7 +59,7 @@ function respostaGato5() {
 }
 
 function msg() {
-  alert("Parabéns, você terminou o jogo, Gato de Botas no seu primeiro encontro com Sherk e Burro teve alguns conflitos, mas se tornaram grande amigos e participaram de grandes aventuras - Jogo Desenvolvido por Rodrigo Cruz ");
+  alert("Parabéns, você terminou o jogo, Gato de Botas no seu primeiro encontro com Shrek e Burro teve alguns conflitos, mas se tornaram grande amigos e participaram de grandes aventuras - Jogo Desenvolvido por Rodrigo Cruz ");
     location = "../index.html";
 }
 
